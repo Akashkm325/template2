@@ -34,8 +34,8 @@ body {
 }
 
 #menu {
-    background-color: rgba(28, 43, 75, 1);
-    color: #fff;
+    background-color: #ffee91;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -48,8 +48,9 @@ body {
 }
 
     .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
-        color: #FFF;
-        padding: 22px 10px;
+        color:#fff;
+        padding: 30px 20px;
+        font-size: larger;
     }
 
 
@@ -59,21 +60,21 @@ body {
 .home-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/header.jpg) no-repeat center center;
+    
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
-    color: #fff;
+    color: rgb(206, 241, 6);
     background-attachment: fixed;
 }
 
     .home-sec .overlay {
-        background: rgba(38, 57, 88, 0.89);
+        background: rgb(255, 255, 255);
         min-height: 500px;
     }
 
     .home-sec h1 {
-        color: #fff;
+        color: rgb(243, 10, 10);
         font-weight: 900;
         font-size: 50px;
         text-transform: uppercase;
@@ -108,7 +109,7 @@ body {
     ===================================*/
 
 .tag-line {
-    background: #E9E9E9;
+    background: #fff;
     color: #000;
 }
 
@@ -116,7 +117,7 @@ body {
         font-size: 20px;
         font-weight: 900;
         padding: 5px 10px 10px 5px;
-        color: #005E5A;
+        color: #ffee00;
     }
 
         .tag-line h2 > i {
@@ -194,70 +195,7 @@ h1::after {
     -moz-border-radius: 0px;
     margin-bottom: 20px;
 }
-/*=====================================
-  FACULTY STYLES 
-  ===================================*/
-#faculty-sec {
-    background-color: #000;
-    color: #fff;
-}
 
-    #faculty-sec .header-line {
-        color: #fff;
-    }
-.faculty-div h4 {
-    line-height:30px;
-    font-weight:700;
-}
-.faculty-div {
-    padding: 30px;
-}
-
-    .faculty-div hr {
-        border: 1px solid #1A94C4;
-    }
-
-    .faculty-div h3 {
-        font-size: 25px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .faculty-div p {
-        padding-top: 10px;
-        padding-bottom: 15px;
-    }
-
-    .faculty-div img {
-        border: 10px double #fff;
-    }
-
-/*=====================================
-  CONTACT STYLES 
-  ===================================*/
-#contact-sec {
-    padding-top: 10px;
-    padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
-
-#contact-sec .overlay {
-        background: rgba(0, 0, 0, 0.76);
-        min-height: 600px;
-    }
-
-    #contact-sec h1 {
-        color:#fff;
-    }
-#contact-sec .form-control{
-    background-color:rgba(255, 255, 255, 0);
-    color:#fff;
-}
 /*=====================================
   Footer STYLES 
   ===================================*/
